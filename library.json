@@ -2,11 +2,11 @@
   "name": "I2Cdevlib-MPU6050-ESP32",
   "keywords": "gyroscope, accelerometer, sensor, i2cdevlib, i2c",
   "description": "The MPU6050 combines a 3-axis gyroscope and a 3-axis accelerometer on the same silicon die together with an onboard Digital Motion Processor(DMP) which processes complex 6-axis MotionFusion algorithms",
-  "include": "Arduino/MPU6050",
+  "include": "MPU6050",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/Martinlinux1/i2cdevlib."
+    "url": "https://github.com/Martinlinux1/i2cdev-mpu6050-esp32.git"
   },
   "dependencies":
   {
@@ -14,5 +14,5 @@
     "frameworks": "arduino"
   },
   "frameworks": "arduino",
-  "platforms": "atmelavr"
+  "platforms": "atmelavr, espressif 32"
 }
